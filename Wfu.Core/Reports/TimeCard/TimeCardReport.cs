@@ -1,5 +1,5 @@
 ﻿
-namespace Wfu.Core.Reports
+namespace Wfu.Core.Reports.TimeCard
 {
     public class TimeCardReport
     {

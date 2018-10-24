@@ -41,11 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Reports\BatchReport.cs" />
-    <Compile Include="Reports\EmployeeReport.cs" />
-    <Compile Include="Reports\PayPeriodReport.cs" />
-    <Compile Include="Reports\PunchReport.cs" />
-    <Compile Include="Reports\TimeCardReport.cs" />
+    <Compile Include="Enums\BatchReport\Columns.cs" />
+    <Compile Include="Enums\BatchReport\Rows.cs" />
+    <Compile Include="Enums\EmployeeReport\Columns.cs" />
+    <Compile Include="Enums\EmployeeReport\Rows.cs" />
+    <Compile Include="Reports\Batch\Batch.cs" />
+    <Compile Include="Reports\Batch\BatchItem.cs" />
+    <Compile Include="Reports\Batch\BatchReport.cs" />
+    <Compile Include="Reports\Employee\Employee.cs" />
+    <Compile Include="Reports\Employee\EmployeeReport.cs" />
+    <Compile Include="Reports\PayPeriod\PayPeriodReport.cs" />
+    <Compile Include="Reports\Punch\PunchReport.cs" />
+    <Compile Include="Reports\TimeCard\TimeCardReport.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

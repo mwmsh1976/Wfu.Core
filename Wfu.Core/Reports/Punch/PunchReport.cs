@@ -1,5 +1,5 @@
 ﻿
-namespace Wfu.Core.Reports
+namespace Wfu.Core.Reports.Punch
 {
     public class PunchReport
     {
